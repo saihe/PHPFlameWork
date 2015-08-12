@@ -1,0 +1,648 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/AccountTypesController.php:38;70;95
+msgid "Invalid account type"
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/AccountTypesController.php:53;74
+msgid "The account type has been saved."
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/AccountTypesController.php:56;77
+msgid "The account type could not be saved. Please, try again."
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/AccountTypesController.php:99
+msgid "The account type has been deleted."
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/AccountTypesController.php:101
+msgid "The account type could not be deleted. Please, try again."
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/AccountsController.php:38;73;101
+msgid "Invalid account"
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/AccountsController.php:53;77
+msgid "The account has been saved."
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/AccountsController.php:56;80
+msgid "The account could not be saved. Please, try again."
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/AccountsController.php:105
+msgid "The account has been deleted."
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/AccountsController.php:107
+msgid "The account could not be deleted. Please, try again."
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/CustomersController.php:38;70;95
+msgid "Invalid customer"
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/CustomersController.php:53;74
+msgid "The customer has been saved."
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/CustomersController.php:56;77
+msgid "The customer could not be saved. Please, try again."
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/CustomersController.php:99
+msgid "The customer has been deleted."
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/CustomersController.php:101
+msgid "The customer could not be deleted. Please, try again."
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/GoodsController.php:38;70;95
+msgid "Invalid good"
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/GoodsController.php:53;74
+msgid "The good has been saved."
+msgstr "商品を保存しました。"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/GoodsController.php:56;77
+msgid "The good could not be saved. Please, try again."
+msgstr "商品を保存できませんでした。"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/GoodsController.php:99
+msgid "The good has been deleted."
+msgstr "商品を削除しました。"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/GoodsController.php:101
+msgid "The good could not be deleted. Please, try again."
+msgstr "商品がありません。"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/SalesInfosController.php:38;73;101
+msgid "Invalid sales info"
+msgstr ""
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/SalesInfosController.php:53;77
+msgid "The sales info has been saved."
+msgstr "伝票を保存しました。"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/SalesInfosController.php:56;80
+msgid "The sales info could not be saved. Please, try again."
+msgstr "伝票を保存できませんでした。"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/SalesInfosController.php:105
+msgid "The sales info has been deleted."
+msgstr "伝票を削除しました。"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/Controller/SalesInfosController.php:107
+msgid "The sales info could not be deleted. Please, try again."
+msgstr "伝票がありません。"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/add.ctp:4
+msgid "Add Account Type"
+msgstr "口座種別追加"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/add.ctp:9
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/edit.ctp:10
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/add.ctp:14
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/edit.ctp:15
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/add.ctp:11
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/edit.ctp:12
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/add.ctp:10
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/edit.ctp:11
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/add.ctp:12
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/edit.ctp:13
+msgid "Submit"
+msgstr "決定"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/add.ctp:12
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/edit.ctp:13
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:10;44
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:27;51
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/add.ctp:17
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/edit.ctp:18
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:15;58
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:52
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/add.ctp:14
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/edit.ctp:15
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:12;48
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:37;63;104
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/add.ctp:13
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/edit.ctp:14
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:11;46
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:32;54
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/add.ctp:15
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/edit.ctp:16
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:13;54
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:42
+msgid "Actions"
+msgstr "メニュー"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/add.ctp:15
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/edit.ctp:17
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:46
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:78
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/add.ctp:20
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/edit.ctp:22
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:60
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:56
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/add.ctp:17
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/edit.ctp:19
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:51
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:129
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/add.ctp:16
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/edit.ctp:18
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:48
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:36;79
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/add.ctp:18
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/edit.ctp:20
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:56
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:46
+msgid "List Goods"
+msgstr "商品リスト"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/add.ctp:16
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/edit.ctp:18
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:47
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:79
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/add.ctp:21
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/edit.ctp:23
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:61
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:57
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/add.ctp:18
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/edit.ctp:20
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:52
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:130
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/add.ctp:17
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/edit.ctp:19
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:49
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:37;80
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/add.ctp:19
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/edit.ctp:21
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:57
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:47
+msgid "New Good"
+msgstr "商品追加"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/add.ctp:17
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/edit.ctp:19
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:48
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:80
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/add.ctp:22
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/edit.ctp:24
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:62
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:58
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/add.ctp:19
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/edit.ctp:21
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:53
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:41;131
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/add.ctp:18
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/edit.ctp:20
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:50
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:81
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/add.ctp:20
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/edit.ctp:22
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:58
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:48
+msgid "List Customers"
+msgstr "顧客リスト"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/add.ctp:18
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/edit.ctp:20
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:49
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:81
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/add.ctp:23
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/edit.ctp:25
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:63
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:59
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/add.ctp:20
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/edit.ctp:22
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:50;54
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:42;132
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/add.ctp:19
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/edit.ctp:21
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:51
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:82
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/add.ctp:21
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/edit.ctp:23
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:59
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:49
+msgid "New Customer"
+msgstr "顧客追加"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/add.ctp:19
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/edit.ctp:21
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:50
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:82
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/add.ctp:24
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/edit.ctp:26
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:64
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:60
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/add.ctp:21
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/edit.ctp:23
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:55
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:45;133
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/add.ctp:20
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/edit.ctp:22
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:52
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:38;83
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/add.ctp:22
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/edit.ctp:24
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:60
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:50
+msgid "List Sales Infos"
+msgstr "伝票リスト"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/add.ctp:20
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/edit.ctp:22
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:51
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:83
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/add.ctp:25
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/edit.ctp:27
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:65
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:61
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/add.ctp:22
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/edit.ctp:24
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:56
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:46;134
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/add.ctp:21
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/edit.ctp:23
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:53
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:39;84
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/add.ctp:23
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/edit.ctp:25
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:61
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:51
+msgid "New Sales Info"
+msgstr "伝票作成"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/add.ctp:21
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/edit.ctp:23
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:52
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:33;84
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/add.ctp:26
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/edit.ctp:28
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:66
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:62
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/add.ctp:23
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/edit.ctp:25
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:57
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:43;135
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/add.ctp:22
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/edit.ctp:24
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:54
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:85
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/add.ctp:24
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/edit.ctp:26
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:62
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:52
+msgid "List Accounts"
+msgstr "振込口座リスト"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/add.ctp:22
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/edit.ctp:24
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:53
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:34;85
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/add.ctp:27
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/edit.ctp:29
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:67
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:63
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/add.ctp:24
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/edit.ctp:26
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:58
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:44;88;136
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/add.ctp:23
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/edit.ctp:25
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:55
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:86
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/add.ctp:25
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/edit.ctp:27
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:63
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:53
+msgid "New Account"
+msgstr "振込口座追加"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/edit.ctp:4
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:29
+msgid "Edit Account Type"
+msgstr "口座種別変種"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/edit.ctp:16
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:23
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:67
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/edit.ctp:21
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:37
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/edit.ctp:18
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:27
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:79;118
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/edit.ctp:17
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:25
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:68
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/edit.ctp:19
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:33
+msgid "Delete"
+msgstr "削除"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/edit.ctp:16
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:23
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:30;67;77
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/edit.ctp:21
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:37
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:55
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/edit.ctp:18
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:27
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:40;79;118;128
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/edit.ctp:17
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:25
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:35;68;78
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/edit.ctp:19
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:33
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:45
+msgid "Are you sure you want to delete # %s?"
+msgstr "本当に削除しますか？"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:2
+msgid "Account Types"
+msgstr "口座種別"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:21
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:65
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:35
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:25
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:77;116
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:23
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:66
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:31
+msgid "View"
+msgstr "詳細"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:22
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:66
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:36
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:26
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:78;117
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:24
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:67
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:32
+msgid "Edit"
+msgstr "編集"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:32
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:46
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:36
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:34
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:42
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "ページ {:page} / {:pages}, レコード {:current} / {:count} 件,  {:start} から {:end} まで"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:37
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:51
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:41
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:39
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:47
+msgid "previous"
+msgstr "前のページ"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/index.ctp:39
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:53
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:43
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:41
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:49
+msgid "next"
+msgstr "次のページ"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:2
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:29
+msgid "Account Type"
+msgstr "口座種別"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:4;42
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:4
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:4;54;97
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:4;47
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:4
+msgid "Id"
+msgstr "ID"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:9
+msgid "Account Type Name"
+msgstr "口座種別名"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:14;49
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:39
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:24;61;102
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:19;52
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:29
+msgid "Created"
+msgstr "作成日時"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:19;50
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:44
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:29;62;103
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:24;53
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:34
+msgid "Modified"
+msgstr "更新日時"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:30
+msgid "Delete Account Type"
+msgstr "削除"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:31
+msgid "List Account Types"
+msgstr "口座種別リスト"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:32
+msgid "New Account Type"
+msgstr "口座種別追加"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:38
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:50
+msgid "Related Accounts"
+msgstr "振込先リスト"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:43
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:55;99
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:49
+msgid "Customer Id"
+msgstr "顧客名"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:44
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:14
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:56
+msgid "Bank Name"
+msgstr "銀行名"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:45
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:19
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:57
+msgid "Branch Name"
+msgstr "支店名"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:46
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:24
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:58
+msgid "Account Name"
+msgstr "口座名義"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:47
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:59
+msgid "Account Type Id"
+msgstr "口座種別"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:48
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:34
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:60
+msgid "Account Number"
+msgstr "口座番号"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:76
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/edit.ctp:4
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:54
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:127
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:77
+msgid "Edit Account"
+msgstr "編集"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/AccountTypes/view.ctp:77
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:55
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:128
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:78
+msgid "Delete Account"
+msgstr "削除"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/add.ctp:4
+msgid "Add Account"
+msgstr "振込先追加"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/index.ctp:2
+msgid "Accounts"
+msgstr "振込先リスト"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:2
+msgid "Account"
+msgstr "振込先"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Accounts/view.ctp:9
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:2
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:14
+msgid "Customer"
+msgstr "顧客名"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/add.ctp:4
+msgid "Add Customer"
+msgstr "顧客追加"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/edit.ctp:4
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:39
+msgid "Edit Customer"
+msgstr "編集"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/index.ctp:2
+msgid "Customers"
+msgstr "顧客リスト"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:9
+msgid "Customer Name"
+msgstr "顧客名"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:14
+msgid "Tel"
+msgstr "電話番号"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:19
+msgid "Email"
+msgstr "Eメールアドレス"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:40
+msgid "Delete Customer"
+msgstr "削除"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:93
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:43
+msgid "Related Sales Infos"
+msgstr "伝票リスト"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:98
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:48
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:9
+msgid "Sales Date"
+msgstr "売上日"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:100
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:50
+msgid "Good Id"
+msgstr "商品名"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Customers/view.ctp:101
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:51
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:24
+msgid "Quantity"
+msgstr "売上個数"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/add.ctp:4
+msgid "Add Good"
+msgstr "商品追加"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/edit.ctp:4
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:34
+msgid "Edit Good"
+msgstr "編集"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/index.ctp:2
+msgid "Goods"
+msgstr "商品リスト"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:2
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:19
+msgid "Good"
+msgstr "商品詳細"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:9
+msgid "Good Name"
+msgstr "商品名"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:14
+msgid "Price"
+msgstr "値段"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/Goods/view.ctp:35
+msgid "Delete Good"
+msgstr "削除"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/add.ctp:4
+msgid "Add Sales Info"
+msgstr "伝票作成"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/edit.ctp:4
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:44
+msgid "Edit Sales Info"
+msgstr "編集"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/index.ctp:2
+msgid "Sales Infos"
+msgstr "伝票リスト"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:2
+msgid "Sales Info"
+msgstr "伝票詳細"
+
+#: C:/xampp/htdocs/PHPFlameWork/sales_cake/app/View/SalesInfos/view.ctp:45
+msgid "Delete Sales Info"
+msgstr "削除"
+
