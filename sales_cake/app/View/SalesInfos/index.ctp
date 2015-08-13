@@ -1,5 +1,6 @@
 <div class="salesInfos index">
 	<h2><?php echo __('Sales Infos'); ?></h2>
+	<p><?php print_r($findDate)  ?></p>
 	<table cellpadding="0" cellspacing="0">
 	<thead>
 	<tr>

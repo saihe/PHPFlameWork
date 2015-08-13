@@ -24,7 +24,10 @@ class SalesInfosController extends AppController {
 	public function index() {
 		$this->SalesInfo->recursive = 0;
 		$this->set('salesInfos', $this->Paginator->paginate());
+		$this->set('findDate' , $this->SalesInfo->findDate());
 	}
+	
+	
 
 /**
  * view method

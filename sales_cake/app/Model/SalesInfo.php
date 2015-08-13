@@ -86,4 +86,10 @@ class SalesInfo extends AppModel {
 			'order' => ''
 		)
 	);
+	
+	public function findDate($date = '2015'){
+		$aaa = $this->find('all' , array('conditions' => array('SalesInfo.sales_date' => $date)));			
+		return $aaa;
+	}
+
 }
