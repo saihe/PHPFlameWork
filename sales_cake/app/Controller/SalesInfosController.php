@@ -109,3 +109,4 @@ class SalesInfosController extends AppController {
 		return $this->redirect(array('action' => 'index'));
 	}
 }
+
