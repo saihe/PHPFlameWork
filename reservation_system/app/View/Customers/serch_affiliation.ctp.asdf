@@ -1,0 +1,7 @@
+<tbody>
+<table>
+<?php 
+	print_r($serch_affiliation); 
+?>
+</table>
+</tbody>
