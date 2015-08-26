@@ -8,7 +8,17 @@
 		</dd>
 		<dt><?php echo __('Affiliation Type'); ?></dt>
 		<dd>
-			<?php echo h($affiliation['Affiliation']['affiliation_type']); ?>
+			<?php echo h($affiliation['Affiliation']['name']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('email'); ?></dt>
+		<dd>
+			<?php echo h($affiliation['Affiliation']['tel']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('tel'); ?></dt>
+		<dd>
+			<?php echo h($affiliation['Affiliation']['email']); ?>
 			&nbsp;
 		</dd>
 	</dl>
@@ -22,14 +32,16 @@
 		<li><?php echo $this->Html->link(__('New Customer'), array('controller' => 'customers', 'action' => 'add')); ?></li>
 		<li><?php echo $this->Html->link(__('List Affiliations'), array('controller' => 'affiliations', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Affiliation'), array('controller' => 'affiliations', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Primaries'), array('controller' => 'primaries', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Primary'), array('controller' => 'primaries', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Answers'), array('controller' => 'answers', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Answer'), array('controller' => 'answers', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Tickets'), array('controller' => 'tickets', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Ticket'), array('controller' => 'tickets', 'action' => 'add')); ?></li>
 	</ul>
 </div>
 <div class="related">
 	<h3><?php echo __('Related Customers'); ?></h3>
+	<?php if (empty($affiliation['Customer'])){
+		echo __('No Data'); 
+	};
+	?>
 	<?php if (!empty($affiliation['Customer'])): ?>
 	<table cellpadding = "0" cellspacing = "0">
 	<tr>
@@ -47,7 +59,7 @@
 	<?php foreach ($affiliation['Customer'] as $customer): ?>
 		<tr>
 			<td><?php echo $customer['id']; ?></td>
-			<td><?php echo $customer['affiliation_id']; ?></td>
+			<td><?php echo h($affiliation['Affiliation']['name']); ?></td>
 			<td><?php echo $customer['primary_id']; ?></td>
 			<td><?php echo $customer['customer_name']; ?></td>
 			<td><?php echo $customer['tel']; ?></td>
@@ -67,7 +79,11 @@
 
 	<div class="actions">
 		<ul>
-			<li><?php echo $this->Html->link(__('New Customer'), array('controller' => 'customers', 'action' => 'add')); ?> </li>
+			<li><?php echo $this->Html->link(__('List Affiliations'), array('controller' => 'customers', 'action' => 'index')); ?> </li>
+	<?php foreach ($affiliations as $affiliation): ?>
+			<li><?php echo $this->Html->link(__(h($affiliation['Affiliation']['name'])), array('action' => '', $affiliation['Affiliation']['id'])); ?></li>
+<?php endforeach; ?>
 		</ul>
 	</div>
+	
 </div>

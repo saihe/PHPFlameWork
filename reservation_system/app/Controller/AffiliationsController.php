@@ -38,7 +38,11 @@ class AffiliationsController extends AppController {
 			throw new NotFoundException(__('Invalid affiliation'));
 		}
 		$options = array('conditions' => array('Affiliation.' . $this->Affiliation->primaryKey => $id));
-		$this->set('affiliation', $this->Affiliation->find('first', $options));
+		$this->set('affiliation', $this->Affiliation->find('first', $options));		
+		$this->Affiliation->recursive = 0;
+		$this->set('affiliations', $this->Paginator->paginate());
+
+
 	}
 
 /**
@@ -102,4 +106,27 @@ class AffiliationsController extends AppController {
 		}
 		return $this->redirect(array('action' => 'index'));
 	}
+	
+	
+	
+	
+	
+		public function serch_affiliation($id = null){
+		//$this->Customer->view_id($id);
+		if (!$this->Affiliation->exists($id)) {
+			throw new NotFoundException(__('Invalid affiliation'));
+		}
+		$options = array('conditions' => array('Affiliation.' . $this->Affiliation->primaryKey => $id));
+		$this->set('affiliation', $this->Affiliation->find('first', $options));
+		
+		$this->Affiliation->recursive = 0;
+		$this->set('affiliations', $this->Paginator->paginate());
+
+	}
+	
+	public function serch_answer($id = null){
+		//$this->Customer->view_id($id);
+		$this->serch_affiliation($id);
+	}
+
 }

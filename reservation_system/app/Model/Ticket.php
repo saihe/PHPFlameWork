@@ -1,11 +1,11 @@
 <?php
 App::uses('AppModel', 'Model');
 /**
- * Answer Model
+ * Ticket Model
  *
  * @property Customer $Customer
  */
-class Answer extends AppModel {
+class Ticket extends AppModel {
 
 /**
  * Display field
@@ -20,9 +20,29 @@ class Answer extends AppModel {
  * @var array
  */
 	public $validate = array(
-		'type' => array(
+		'name' => array(
 			'notEmpty' => array(
 				'rule' => array('notEmpty'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'stock' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'customer_count' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -42,7 +62,7 @@ class Answer extends AppModel {
 	public $hasMany = array(
 		'Customer' => array(
 			'className' => 'Customer',
-			'foreignKey' => 'answer_id',
+			'foreignKey' => 'ticket_id',
 			'dependent' => false,
 			'conditions' => '',
 			'fields' => '',
@@ -51,7 +71,7 @@ class Answer extends AppModel {
 			'offset' => '',
 			'exclusive' => '',
 			'finderQuery' => '',
-			'counterQuery' => ''
+			'counterQuery' => '',
 		)
 	);
 

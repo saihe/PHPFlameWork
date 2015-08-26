@@ -8,12 +8,12 @@
 		</dd>
 		<dt><?php echo __('Affiliation'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($customer['Affiliation']['affiliation_type'], array('controller' => 'affiliations', 'action' => 'view', $customer['Affiliation']['id'])); ?>
+			<?php echo $this->Html->link($customer['Affiliation']['name'], array('controller' => 'affiliations', 'action' => 'view', $customer['Affiliation']['id'])); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Primary'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($customer['Primary']['primary_type'], array('controller' => 'primaries', 'action' => 'view', $customer['Primary']['id'])); ?>
+			<?php echo $this->Html->link($customer['Primary']['name'], array('controller' => 'primaries', 'action' => 'view', $customer['Primary']['id'])); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Customer Name'); ?></dt>
@@ -31,9 +31,14 @@
 			<?php echo h($customer['Customer']['email']); ?>
 			&nbsp;
 		</dd>
+		<dt><?php echo __('Ticket'); ?></dt>
+		<dd>
+			<?php echo $this->Html->link($customer['Ticket']['name'], array('controller' => 'tickets', 'action' => 'view', $customer['Ticket']['id'])); ?>
+			&nbsp;
+		</dd>
 		<dt><?php echo __('Answer'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($customer['Answer']['type'], array('controller' => 'answers', 'action' => 'view', $customer['Answer']['id'])); ?>
+			<?php echo $this->Html->link($customer['Answer']['name'], array('controller' => 'answers', 'action' => 'view', $customer['Answer']['id'])); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Created'); ?></dt>
@@ -57,9 +62,7 @@
 		<li><?php echo $this->Html->link(__('New Customer'), array('controller' => 'customers', 'action' => 'add')); ?></li>
 		<li><?php echo $this->Html->link(__('List Affiliations'), array('controller' => 'affiliations', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Affiliation'), array('controller' => 'affiliations', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Primaries'), array('controller' => 'primaries', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Primary'), array('controller' => 'primaries', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Answers'), array('controller' => 'answers', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Answer'), array('controller' => 'answers', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Tickets'), array('controller' => 'tickets', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Ticket'), array('controller' => 'tickets', 'action' => 'add')); ?></li>
 	</ul>
 </div>
